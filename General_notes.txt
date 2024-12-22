@@ -1,0 +1,63 @@
+week 2 - fine0tuning models for various usecases - Hugging face datasets - fineweb-2
+
+**********************************************************************************
+
+Problem Statement:
+
+Efficiently managing customer support tickets is critical for delivering excellent customer service. However, manually tagging tickets based on their content is time-consuming, especially when handling high volumes of tickets.
+
+This inefficiency leads to delayed ticket resolution, customer dissatisfaction, and challenges in prioritizing and routing tickets to the appropriate teams.
+
+To automate the process of tagging customer support tickets using a Large Language Model (LLM) via text classification, the system should accurately classify tickets into predefined categories based on their content, such as Technical Support, Billing and Payments, IT support etc.
+
+
+
+Code:
+
+For people already aware about Kaggle platform, they can directly open the notebook link and get started. For beginners please follow the given steps:
+
+Create a Kaggle account if you don’t already have one. Sign up at kaggle.com.
+Explore the dataset using the link provided below.
+Open the notebook using the link provided below.
+To experiment with the code:
+Click the Copy and Edit button located in the top-right corner of the notebook.
+Run the code cells and make modifications to explore further.
+
+
+https://www.kaggle.com/datasets/warcoder/customer-support-ticket-tagging
+
+https://www.kaggle.com/code/warcoder/customer-support-ticket-tagger
+
+
+**********************************************************************************
+
+Finetuning Llama 3.2 for Customer Support
+
+Problem Statement:
+
+In the fast-paced world of customer service, providing personalized and efficient support is crucial for maintaining customer satisfaction and loyalty. While traditional rule-based bots fail to handle complex queries or adapt to specific business needs, existing generic large language models (LLMs) like Llama 3.2 often lack fine-tuning for domain-specific requirements. This leads to inaccurate responses, longer resolution times, and a subpar customer experience.
+
+The challenge lies in creating a customer support bot that understands the nuances of a company's products, services, and tone of communication while maintaining efficiency and cost-effectiveness. Fine-tuning a large model like Llama 3.2 from scratch is resource-intensive and may not be feasible for many businesses due to computational and data constraints.
+
+Objective:
+
+To fine-tune the Llama 3.2 model using Low-Rank Adaptation (LoRA) for a customer support bot.
+
+
+
+Code:
+
+For people already aware about Kaggle platform, they can directly open the notebook link and get started. For beginners please follow the given steps:
+
+Create a Kaggle account if you don’t already have one. Sign up at kaggle.com.
+Open the notebook using the link provided below.
+To experiment with the code:
+Click the Copy and Edit button located in the top-right corner of the notebook.
+Run the code cells and make modifications to explore further.
+There is a secret HuggingFace token required. For that please generate a Access Token from HuggingFace platform and add that to Kaggle secrets. For help please refer this link: https://www.kaggle.com/discussions/product-feedback/114053
+
+
+https://www.kaggle.com/code/warcoder/customer-support-lora-llama-3-2-3b-instruct
+
+
+**********************************************************************************
